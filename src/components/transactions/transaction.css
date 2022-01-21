@@ -1,0 +1,98 @@
+.options-transaction {
+  display: flex;
+  justify-content: space-between;
+}
+.orders-transaction {
+  display: flex;
+  flex-direction: row;
+}
+.orders-transaction input {
+  margin-right: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 0.3px solid rgb(187, 171, 171);
+  color: grey;
+}
+.orders-transaction input:focus {
+  outline: none !important;
+  border-color: rgb(187, 171, 171);
+  box-shadow: 0 0 10px rgb(187, 171, 171);
+}
+.orders-transaction select {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 0.3px solid rgb(187, 171, 171);
+  /* text-transform: capitalize; */
+  color: grey;
+  background-color: white;
+  margin-right: 20px;
+}
+.orders-transaction select:focus {
+  outline: none !important;
+  /* border-color: rgb(187, 171, 171);
+  box-shadow: 0 0 10px rgb(187, 171, 171); */
+}
+
+.options-transaction .blue {
+  color: white;
+  background-color: rgb(0, 0, 160);
+  border: none;
+  border-radius: 5px;
+  padding: 8px 10px;
+  margin-left: 15px;
+}
+.options-transaction .green {
+  color: white;
+  background-color: rgb(15, 150, 15);
+  border: none;
+  border-radius: 5px;
+  padding: 8px 10px;
+}
+.options-transaction .green:hover {
+  background-color: green;
+  cursor: pointer;
+}
+.options-transaction .blue:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+/* Table section */
+
+.transaction-table {
+  border-collapse: collapse;
+  margin: 70px 0;
+  font-size: 0.9em;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.transaction-table thead tr {
+  color: black;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 1px solid grey;
+  padding: 0 50px;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 12px 15px;
+}
+
+.transaction-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  color: grey;
+}
+/* 
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+} */
+
+/* .icons-action {
+  display: flex;
+
+  align-items: center;
+} */

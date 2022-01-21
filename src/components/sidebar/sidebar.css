@@ -1,0 +1,45 @@
+.sidebar {
+  position: absolute;
+  min-height: 165vh;
+  width: 200px;
+  background-color: rgb(37, 37, 100);
+  z-index: 100;
+  top: 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  flex: 1;
+}
+.sidebar .head-icon {
+  margin: 40px 0px;
+  padding-left: 40px;
+}
+
+.head-details .side-icons {
+  display: flex;
+  padding-left: 40px;
+  cursor: pointer;
+}
+
+.side-icons .icons-one {
+  margin: auto 0px;
+  color: rgba(255, 255, 255, 0.822);
+  height: 20px;
+  width: 20px;
+}
+
+.side-icons p {
+  color: rgba(255, 255, 255, 0.822);
+  padding-left: 10px;
+}
+.side-icons a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.822);
+}
+
+.side-icons:hover {
+  background-color: rgb(124, 124, 167);
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+}

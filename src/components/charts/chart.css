@@ -1,0 +1,12 @@
+.donut {
+  height: 300px;
+  width: 500px;
+  margin-right: 350px;
+  display: inline-block;
+  position: relative;
+  left: -100px;
+}
+.barchart {
+  height: 300px;
+  width: 600px;
+}

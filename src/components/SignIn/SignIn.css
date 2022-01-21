@@ -1,0 +1,80 @@
+.login {
+  background-image: url("../../img/weblogin.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  z-index: 10000;
+}
+.login-box {
+  height: 380px;
+  width: 420px;
+  background-color: #fff;
+  color: rgb(192, 181, 181);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 60px 40px;
+}
+.delivery {
+  height: 140px;
+  width: 140px;
+  position: absolute;
+  top: -70px;
+  left: calc(50% - 70px);
+  border-radius: 50%;
+}
+form p {
+  margin-bottom: 3px;
+}
+form input {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 3px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid;
+  border-radius: 3px;
+  border-color: rgb(18, 163, 221);
+  color: rgb(37, 37, 100);
+}
+
+.password {
+  display: flex;
+  flex-direction: column;
+}
+.password button {
+  width: 100%;
+  padding: 7px;
+  text-transform: uppercase;
+  background-color: rgb(37, 37, 100);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+}
+.password button:hover {
+  cursor: pointer;
+  background-color: blue;
+}
+.password a {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+form input:focus {
+  outline: none !important;
+  border-color: #719ece;
+  box-shadow: 0 0 10px #719ece;
+}
+.login-box a {
+  text-decoration: none;
+  font-size: 14px;
+}
+.signup {
+  font-size: 14px;
+  text-align: center;
+}

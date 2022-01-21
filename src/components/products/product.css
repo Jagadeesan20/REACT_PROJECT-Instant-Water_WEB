@@ -1,0 +1,86 @@
+.option-tab {
+  display: flex;
+  justify-content: space-between;
+}
+.select-tab {
+  display: flex;
+  flex-direction: row;
+}
+.select-tab input {
+  margin-right: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 0.3px solid rgb(187, 171, 171);
+  color: grey;
+  text-transform: capitalize;
+}
+.select-tab input:focus {
+  outline: none !important;
+  border-color: rgb(187, 171, 171);
+  box-shadow: 0 0 10px rgb(187, 171, 171);
+}
+.select-tab select {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 0.3px solid rgb(187, 171, 171);
+  text-transform: capitalize;
+  color: grey;
+  background-color: white;
+}
+.select-tab select:focus {
+  outline: none !important;
+  /* border-color: rgb(187, 171, 171);
+  box-shadow: 0 0 10px rgb(187, 171, 171); */
+}
+
+.option-tab button {
+  color: white;
+  background-color: rgb(0, 0, 160);
+  border: none;
+  border-radius: 5px;
+  padding: 8px 10px;
+}
+.option-tab button:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+/* Table section */
+
+.content-table {
+  border-collapse: collapse;
+  margin: 70px 0;
+  font-size: 0.9em;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  color: black;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 1px solid grey;
+  padding: 0 50px;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  color: grey;
+}
+/* 
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+} */
+
+.icons-action {
+  display: flex;
+
+  align-items: center;
+}

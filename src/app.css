@@ -1,0 +1,5 @@
+.others {
+  box-sizing: border-box;
+  padding-left: calc(100vw - 83vw);
+  padding-right: 30px;
+}
